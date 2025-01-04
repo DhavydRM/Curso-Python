@@ -1,0 +1,11 @@
+n = str(input('Número: '))
+print('Unidade: {}'.format(n[3]))
+print('Dezena: {}'.format(n[2]))
+print('Centena: {}'.format(n[1]))
+print('Milhar: {}'.format(n[0]))
+
+n1 = int(n)
+print('Unidade: {}'.format(n1%10))
+print('Dezena: {}'.format(n1%100))
+print('Centena: {}'.format(n1%1000))
+print('Milhar: {}'.format(n1%10000))
